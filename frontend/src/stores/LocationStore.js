@@ -1,5 +1,5 @@
 import axios from 'axios'
-const SERVER = 'http://aaaalocation-klaw125.c9users.io'
+const SERVER = 'https://webtech-project-teodoragheorghe1902.c9users.io/'
 
 class LocationStore{
   constructor(ee){
