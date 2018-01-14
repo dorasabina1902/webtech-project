@@ -1,0 +1,223 @@
+html,body
+{
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*nav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}*/
+nav {
+	text-align: right;
+}
+nav ul{
+list-style: none;
+display: block;
+margin: 0 auto;
+list-style: none;
+}
+nav li{
+margin-top: 9px;
+float: left;
+padding-left: 21px;
+}
+nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+nav li a:hover { color: #fff; opacity:1; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 25px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold;}
+
+/*li
+{
+  display: inline;
+  padding: 0 20px;
+  float: left;
+}*/
+
+.title {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 25px;
+text-align: left;
+margin: 40px auto;
+}
+
+.quotes {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 25px;
+text-align: center;
+margin: 20px auto;
+}
+.contact {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 20px;
+text-align: left;
+margin: 20px auto;
+}
+.author_name_gray
+{
+font-family: Oswald;
+font-weight: normal;
+font-size: 16px;
+text-align: left;
+margin: 3px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+.quotesevents {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 25px;
+text-align: right;
+margin: 20px auto;
+}
+.quotes_container { width: 900px; margin: 0 auto; }
+
+.onepage
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
+}
+.more
+{
+  display: block;
+  position: relative;
+  bottom: 10px;
+  top: 0;
+  left: 0;
+}
+h1 {
+font-family:"Arvo";
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+h2 {
+font-family:"Arvo";
+font-weight: normal;
+font-size: 30px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+h3 {
+font-family: Oswald;
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+margin: 3px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+h5 {
+font-family: Oswald;
+font-weight: normal;
+font-size: 16px;
+text-align: left;
+margin: 3px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+
+#header {
+width: 100%;
+background: url('../img/header.jpg');
+opacity: 0.5;
+filter: alpha(opacity=50);
+height: 130px;
+position: fixed;
+margin-top: 30px;
+}
+#slide1
+{
+ background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+ color: #fff;
+ height: 600px;
+ margin: 0;
+ padding: 200px 0 260px 0;
+ background-size: cover;
+}
+#slide2
+{
+  background-color: #fff;
+ background:url('../img/slid2.jpg') 50% 0 no-repeat fixed;
+ color: #333333;
+ height: 300px;
+ margin: 0 auto;
+ overflow: hidden;
+ padding: 200px 0;
+}
+#slide3
+{
+  background: url(../img/slide3.jpeg) 50% 0 no-repeat fixed;
+ color: #000000;
+ height: 600px;
+ padding: 170px 0 0 0;
+ background-size: cover;
+}
+#slide4
+{
+  background-color: #fff;
+ background: url(../img/slide4.jpg) 50% 0 no-repeat fixed;
+ color: #333333;
+ height: 600px;
+ padding: 200px 0;
+}
+#slide5
+{
+  background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+height: 600px;
+margin: 0 auto;
+padding: 200px 0;
+color: #fff;
+background-size: cover;
+}
+#slide6
+{
+  background: url(../img/slide6.jpg) 50% 0 no-repeat fixed;
+height: 600px;
+margin: 0 auto;
+padding: 200px 0;
+color: #fff;
+background-size: cover;
+}
+#slide7
+{
+  background: url(../img/slide7.jpg) 50% 0 no-repeat fixed;
+height: 600px;
+margin: 0 auto;
+padding: 200px 0;
+color: #fff;
+background-size: cover;
+}
+#slide8
+{
+  background: url(../img/slide8.jpg) 50% 0 no-repeat fixed;
+height: 300px;
+margin: 0 auto;
+padding: 200px 0;
+color: #fff;
+background-size: cover;
+}
+#copyright { color: #fff; font-family:"Wellfleet"; font-size: 14px; margin-top: 100px; text-align: center; }
+#copyright a { text-decoration: none; color: #fff; }
